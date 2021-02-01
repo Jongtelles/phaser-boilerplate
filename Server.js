@@ -10,3 +10,13 @@ app.get("/", function (req, res) {
 app.listen(8080, () => {
   console.log("Server listening on http://localhost:8080");
 });
+
+process.on("SIGINT", () => {
+  console.log("exiting…");
+  process.exit();
+});
+
+process.on("exit", () => {
+  console.log("exiting…");
+  process.exit();
+});
