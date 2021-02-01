@@ -1,14 +1,23 @@
 {
-  "name": "phaser",
+  "name": "phaser-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Barebones outline for Phaser using exports (local dev)",
   "main": "Server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jongtelles/phaser-boilerplate.git"
+  },
+  "author": "jongtelles",
   "license": "ISC",
-  "devDependencies": {
-    "express": "^4.17.1"
-  }
+  "bugs": {
+    "url": "https://github.com/Jongtelles/phaser-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Jongtelles/phaser-boilerplate#readme"
 }
